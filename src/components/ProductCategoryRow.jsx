@@ -1,11 +1,16 @@
-import ProductRow from "./ProductRow"
+import ProductRow from "./ProductRow";
 
-const ProductCategoryRow = () => {
+const ProductCategoryRow = ({categoria}) => {
   return (
     <>
-    <ProductRow/>
+    <tr>
+        <th colSpan="2">
+{categoria}
+        </th>
+    </tr>
+     <ProductRow/>
     </>
-  )
-}
+  );
+};
 
-export default ProductCategoryRow
+export default ProductCategoryRow;

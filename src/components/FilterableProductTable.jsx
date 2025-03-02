@@ -1,12 +1,12 @@
 import ProductTable from "./ProductTable"
 import SearchBar from "./SearchBar"
 
-const FilterableProductTable = () => {
+const FilterableProductTable = ({PRODUCTS}) => {
   return (
-    <>
+    <div>
     <SearchBar/>
-    <ProductTable/>
-    </>
+    <ProductTable products={PRODUCTS}/>
+    </div>
   )
 }
 
