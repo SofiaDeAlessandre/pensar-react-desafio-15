@@ -1,8 +1,8 @@
 ### Nombre y apellido: Sofía De Alessandre
 
-### Link Github Repositorio: 
+### Link Github Repositorio: https://github.com/SofiaDeAlessandre/pensar-react-desafio-15.git
 
-### Link Netlify: 
+### Link Netlify: https://pensar-react-desafio-15.netlify.app/
 
 ### Descripción: El desafío 15 es un buscador de productos en React basado en la página siguiente: https://es.react.dev/learn/thinking-in-react. También se utilizó Tailwind.
 
