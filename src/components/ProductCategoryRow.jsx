@@ -1,14 +1,9 @@
-
-
-const ProductCategoryRow = ({category}) => {
+const ProductCategoryRow = ({ category }) => {
   return (
     <>
-    <tr>
-        <th colSpan="2">
-{category}
-        </th>
-    </tr>
-
+      <tr>
+        <th colSpan="2">{category}</th>
+      </tr>
     </>
   );
 };

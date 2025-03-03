@@ -2,8 +2,8 @@ const SearchBar = ({
   filterText,
   inStockOnly,
   onFilterTextChange,
-  onInStockOnlyChange}
-) => {
+  onInStockOnlyChange,
+}) => {
   return (
     <>
       <form className="w-lg bg-white border rounded-lg p-6 flex flex-col mx-auto m-10">
@@ -18,7 +18,7 @@ const SearchBar = ({
           <input
             type="checkbox"
             checked={inStockOnly}
-          onChange={(e) => onInStockOnlyChange(e.target.checked)}
+            onChange={(e) => onInStockOnlyChange(e.target.checked)}
           />{" "}
           Mostrar solo productos en stock
         </label>
