@@ -1,14 +1,14 @@
-import ProductRow from "./ProductRow";
 
-const ProductCategoryRow = ({categoria}) => {
+
+const ProductCategoryRow = ({category}) => {
   return (
     <>
     <tr>
         <th colSpan="2">
-{categoria}
+{category}
         </th>
     </tr>
-     <ProductRow/>
+
     </>
   );
 };

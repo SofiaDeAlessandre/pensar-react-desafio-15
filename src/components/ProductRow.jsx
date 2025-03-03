@@ -1,15 +1,16 @@
-
-const ProductRow = ({product}) => {
+const ProductRow = ({ product }) => {
+    
     const name = product.stocked ? product.name :
-    <span style={{color: 'red'}}>
-{product.name}
-    </span>
-  return (
-    <tr>
+      <span style={{ color: 'red' }}>
+        {product.name}
+      </span>;
+  
+    return (
+      <tr>
         <td>{name}</td>
         <td>{product.price}</td>
-    </tr>
-  )
-}
-
-export default ProductRow
+      </tr>
+    );
+  };
+  
+  export default ProductRow;
